@@ -373,6 +373,8 @@ def main() -> int:
         existing_pins = existing.get("pins", []) if isinstance(existing, dict) else existing
         existing_ids = {pin.get("id") for pin in existing_pins}
         pins = [pin for pin in pins if pin["id"] not in existing_ids] + existing_pins
+        # păstrează ordinea cronologică, ca fișierul să fie ușor de verificat
+        pins.sort(key=lambda pin: (str(pin.get("scheduled_at") or ""), str(pin.get("id") or "")))
     else:
         existing_ids = set()
 

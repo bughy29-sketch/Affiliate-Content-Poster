@@ -59,6 +59,66 @@
       "scheduled_at": "2026-11-11T09:00:00Z",
       "affiliate": "emag",
       "enabled": false
+    },
+    {
+      "id": "emag-017d771a8d",
+      "board_id": "",
+      "title": "SSD extern Kingston XS1000 1TB – backup rapid, format compact",
+      "description": "SSD-ul extern Kingston XS1000 de 1TB este compact și portabil, gândit pentru transferul rapid al fișierelor și pentru backup. Îl poți ține în geanta laptopului, fără să ocupi mult spațiu. Verifică specificațiile complete și disponibilitatea în magazin.",
+      "link": "https://profitshare.ro/lps/pPv/MZC/?redirect=https%3A%2F%2Fwww.itgalaxy.ro%2Fssd-extern%2Fkingston%2Fxs1000-1tb-black-586035%2F",
+      "image_url": "https://cdni.itgalaxy.ro/images/products/img_202306261341/586035/full/ssd-extern-kingston-xs1000-1tb-2-5inch-black-1434443.jpeg",
+      "alt_text": "SSD extern Kingston XS1000, vedere produs",
+      "scheduled_at": "2026-11-12T09:00:00Z",
+      "affiliate": "emag",
+      "enabled": false
+    },
+    {
+      "id": "emag-b817c38bc0",
+      "board_id": "",
+      "title": "Router TP-Link Archer AX53 – Wi-Fi 6 AX3000, dual-band",
+      "description": "Routerul TP-Link Archer AX53 oferă Wi-Fi 6 dual-band, cu până la 2402 Mbps în banda de 5 GHz și 574 Mbps în banda de 2,4 GHz. Potrivit dacă ai multe dispozitive conectate și vrei o rețea stabilă acasă. Verifică specificațiile complete și disponibilitatea în magazin.",
+      "link": "https://profitshare.ro/lps/pPv/MZC/?redirect=https%3A%2F%2Fwww.itgalaxy.ro%2Froutere-wireless%2Ftp-link%2Farcher-ax53-ax3000-wi-fi-6-dual-band-gigabit-negru-465586%2F",
+      "image_url": "https://cdni.itgalaxy.ro/images/products/img_202202220953/465586/full/router-wireless-tp-link-tpl-wi-fi-6-router-gb-ax3000-archer-ax53-1170744.jpeg",
+      "alt_text": "Router TP-Link Archer AX53, vedere produs",
+      "scheduled_at": "2026-11-13T09:00:00Z",
+      "affiliate": "emag",
+      "enabled": false
+    },
+    {
+      "id": "emag-0493964792",
+      "board_id": "",
+      "title": "Smartwatch Xiaomi Watch S4 41mm – negru, curea fluororubber",
+      "description": "Xiaomi Watch S4 are carcasă de 41 mm și curea din fluororubber, în varianta neagră. Un smartwatch compact, potrivit pentru purtare zilnică și pentru un look discret la birou. Verifică specificațiile complete și disponibilitatea în magazin.",
+      "link": "https://profitshare.ro/lps/pPv/MZC/?redirect=https%3A%2F%2Fwww.itgalaxy.ro%2Fsmartwatch%2Fxiaomi%2Fbhr07vrgl-918761%2F",
+      "image_url": "https://cdni.itgalaxy.ro/images/products/img_202512050542/918761/full/smartwatch-xiaomi-bhr07vrgl-s4-41mm-negru-2229184.png",
+      "alt_text": "Smartwatch Xiaomi Watch S4 41mm negru, vedere produs",
+      "scheduled_at": "2026-11-14T09:00:00Z",
+      "affiliate": "emag",
+      "enabled": false
+    },
+    {
+      "id": "emag-b5ee82faa2",
+      "board_id": "",
+      "title": "Boxă portabilă JBL Flip 7 – Bluetooth, IP68, AI Sound Boost",
+      "description": "Boxa portabilă JBL Flip 7 are Bluetooth, certificare IP68 pentru praf și apă și tehnologia AI Sound Boost pentru bass și claritate la volum mare. Potrivită pentru muzică acasă, la birou sau în deplasare. Verifică specificațiile complete și disponibilitatea în magazin.",
+      "link": "https://profitshare.ro/lps/pPv/MZC/?redirect=https%3A%2F%2Fwww.itgalaxy.ro%2Fboxe-portabile%2Fjbl%2Fjbl-flip-7-white-814826%2F",
+      "image_url": "https://cdni.itgalaxy.ro/images/products/img_202604211652/814826/full/boxa-portabila-jbl-flip-7-bluetooth-ip68-alb-2342257.jpeg",
+      "alt_text": "Boxă portabilă JBL Flip 7 albă, vedere produs",
+      "scheduled_at": "2026-11-15T09:00:00Z",
+      "affiliate": "emag",
+      "enabled": false
+    },
+    {
+      "id": "emag-3847e16157",
+      "board_id": "",
+      "title": "Kit tastatură și mouse Logitech Signature Slim MK950 – wireless",
+      "description": "Kitul Logitech Signature Slim MK950 include tastatură și mouse wireless, într-un design slim, în varianta gri. Potrivit pentru un birou fără cabluri, cu un aspect curat. Verifică specificațiile complete și disponibilitatea în magazin.",
+      "link": "https://profitshare.ro/lps/pPv/MZC/?redirect=https%3A%2F%2Fwww.itgalaxy.ro%2Fkit-tastatura-si-mouse%2Flogitech%2Fsignature-slim-mk950-wireless-gri-709876%2F",
+      "image_url": "https://cdni.itgalaxy.ro/images/products/img_202405061642/709876/full/kit-tastatura-plus-mouse-logitech-signature-slim-mk950-wireless-gri-1718348.jpeg",
+      "alt_text": "Kit tastatură și mouse Logitech Signature Slim MK950 gri, vedere produs",
+      "scheduled_at": "2026-11-16T09:00:00Z",
+      "affiliate": "emag",
+      "enabled": false
     }
   ]
 }
