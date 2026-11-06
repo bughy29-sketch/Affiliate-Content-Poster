@@ -106,6 +106,38 @@ Când totul e curat, rulează cu `dry_run = false` sau lasă cron-ul să publice
 | `disclosure` | Opțional; suprascrie textul global |
 | `enabled` | `false` = ignorat |
 
+## Import din feed-ul Profitshare
+
+Feed-ul se configurează doar local, în `.env` (cale locală sau URL, inclusiv `file://`):
+
+```env
+PROFITSHARE_FEED_URL=file:///C:/Users/Receptie/Downloads/profitshare-feed.xml
+```
+
+Comenzi utile:
+
+```bash
+# ce categorii există în feed
+python scripts/import_profitshare_feed.py --list-categories
+
+# 5 produse, maximum 1 per categorie, doar din categoriile tech
+python scripts/import_profitshare_feed.py --limit 5 --max-per-category 1 \
+  --include telefoane laptopuri casti monitoare routere mouse
+
+# produse exacte, după codul din feed (ordinea este păstrată)
+python scripts/import_profitshare_feed.py --pick X1504MA-BQ212 910-007617
+
+# previzualizare fără a atinge coada reală
+python scripts/import_profitshare_feed.py --limit 5 --output data/queue.preview.json
+```
+
+Implicit pinurile importate au `enabled: false` și descrierea extrasă din feed
+(propoziții întregi, fără prețuri statice). Verifică-le înainte de publicare:
+descrierile de magazin sunt uneori repetitive sau vând prea agresiv.
+
+> Feed-ul folosit aici conține produse vândute de **ITGalaxy.ro**, distribuite prin
+> Profitshare. Nu scrie „eMAG" în descrieri dacă magazinul real este altul.
+
 ## Variabile de mediu
 
 | Variabilă | Default | Semnificație |

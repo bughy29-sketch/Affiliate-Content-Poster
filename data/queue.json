@@ -1,40 +1,64 @@
 {
   "pins": [
     {
-      "id": "emag-001",
-      "board_id": "123456789012345678",
-      "title": "Idei de cadouri pentru birou",
-      "description": "Selecție de accesorii utile pentru biroul de acasă. Linkurile duc către magazinul partener.",
-      "link": "https://profitshare.ro/l/exemplu-emag",
-      "image_url": "https://images.example.com/birou.jpg",
-      "alt_text": "Birou organizat cu accesorii",
-      "scheduled_at": "2026-11-01T09:00:00Z",
+      "id": "emag-fcf736395b",
+      "board_id": "",
+      "title": "Laptop ASUS Vivobook 15 – FHD 15,6\", Intel Core 5, 512GB SSD",
+      "description": "Laptopul ASUS Vivobook 15 are ecran Full HD de 15,6 inch, procesor Intel Core 5 320, 8GB RAM și SSD de 512GB — o configurație potrivită pentru muncă, studiu și multitasking zilnic. Vine cu FreeDOS, deci îți instalezi sistemul dorit. Atenție: încărcătorul nu este inclus în pachet (recomandat 33–48W).",
+      "link": "https://profitshare.ro/lps/pPv/MZC/?redirect=https%3A%2F%2Fwww.itgalaxy.ro%2Flaptopuri%2Fasus%2Fvivobook-15-fhd-15-6-inch-intel-core-5-320-8gb-512gb-ssd-free-dos-quiet-blue-970611%2F",
+      "image_url": "https://cdni.itgalaxy.ro/images/products/img_202604211652/970611/full/laptop-asus-vivobook-15-fhd-15-6-inch-intel-core-5-320-8gb-512gb-ssd-free-dos-quiet-blue-2388124.png",
+      "alt_text": "Laptop ASUS Vivobook 15, vedere produs",
+      "scheduled_at": "2026-11-07T09:00:00Z",
       "affiliate": "emag",
-      "enabled": true
+      "enabled": false
     },
     {
-      "id": "amazon-001",
-      "board_id": "123456789012345678",
-      "title": "Gadgeturi mici pentru călătorii",
-      "description": "Trei gadgeturi compacte care încap în orice bagaj de mână.",
-      "link": "https://www.amazon.de/dp/B0EXAMPLE?tag=exemplu-21",
-      "image_url": "https://images.example.com/travel.jpg",
-      "alt_text": "Gadgeturi de călătorie pe masă",
-      "scheduled_at": "2026-11-01T12:00:00Z",
-      "affiliate": "amazon",
-      "enabled": true
+      "id": "emag-ef174af750",
+      "board_id": "",
+      "title": "Monitor Samsung Odyssey G5 27\" – WQHD 2560 x 1440",
+      "description": "Monitorul Samsung Odyssey G5 G50F are 27 de inch și rezoluție WQHD (2560 x 1440), util atât pentru gaming, cât și pentru un desk setup cu mai multe ferestre deschise simultan. Panou LED, finisaj negru. Verifică specificațiile complete, prețul și disponibilitatea în magazin.",
+      "link": "https://profitshare.ro/lps/pPv/MZC/?redirect=https%3A%2F%2Fwww.itgalaxy.ro%2Fmonitoare%2Fsamsung%2Fled-odyssey-g5-g50f-27inch-2560-x-1440-wqhd-negru-966874%2F",
+      "image_url": "https://cdni.itgalaxy.ro/images/products/img_202604211652/966874/full/monitor-samsung-led-odyssey-g5-g50f-27inch-2560-x-1440-wqhd-negru-2366675.jpeg",
+      "alt_text": "Monitor Samsung Odyssey G5 de 27 inch, vedere produs",
+      "scheduled_at": "2026-11-08T09:00:00Z",
+      "affiliate": "emag",
+      "enabled": false
     },
     {
-      "id": "organic-001",
-      "board_id": "123456789012345678",
-      "title": "Paletă de culori pentru toamnă",
-      "description": "Trei combinații de culori pe care le poți folosi în decorul interior.",
-      "link": "https://example.com/blog/paleta-toamna",
-      "image_url": "https://images.example.com/toamna.jpg",
-      "alt_text": "Paletă caldă de toamnă",
-      "scheduled_at": "2026-11-01T15:00:00Z",
-      "affiliate": "",
-      "enabled": true
+      "id": "emag-d2fd788872",
+      "board_id": "",
+      "title": "Mouse Logitech MX Master 4 – 8K DPI, MagSpeed, Bluetooth",
+      "description": "Mousele Logitech MX Master 4 are senzor de 8.000 DPI, scroll MagSpeed și conectivitate prin Logi Bolt sau Bluetooth. O alegere pentru birou și productivitate, mai ales dacă lucrezi cu documente lungi, foi de calcul și mai multe aplicații deschise. Verifică specificațiile și disponibilitatea în magazin.",
+      "link": "https://profitshare.ro/lps/pPv/MZC/?redirect=https%3A%2F%2Fwww.itgalaxy.ro%2Fmouse%2Flogitech%2Fmouse-mx-master-4-8k-dpi-magspeed-scrolling-logi-bolt-receiver-bluetooth-graphite-910-007617-timbru-verde-0-18-lei-895204%2F",
+      "image_url": "https://cdni.itgalaxy.ro/images/products/img_202604211652/895204/full/mouse-logitech-mouse-mx-master-4-8k-dpi-magspeed-scrolling-logi-bolt-receiver-bluetooth-graphite-910-007617-timbru-verde-0-18-lei-2361382.jpeg",
+      "alt_text": "Mouse Logitech MX Master 4, vedere produs",
+      "scheduled_at": "2026-11-09T09:00:00Z",
+      "affiliate": "emag",
+      "enabled": false
+    },
+    {
+      "id": "emag-929fbd408e",
+      "board_id": "",
+      "title": "Căști Sony WH-CH520 – wireless, Bluetooth, USB-C",
+      "description": "Căștile Sony WH-CH520 sunt supraear, wireless, cu Bluetooth și încărcare USB-C. Le poți folosi pentru muzică, podcasturi sau apeluri la birou, fără fir. Modelul din feed este bej. Verifică specificațiile complete și disponibilitatea în magazin.",
+      "link": "https://profitshare.ro/lps/pPv/MZC/?redirect=https%3A%2F%2Fwww.itgalaxy.ro%2Fcasti%2Fsony%2Fwh-ch520-headphones-beige-bluetooth-usb-c-668931%2F",
+      "image_url": "https://cdni.itgalaxy.ro/images/products/img_202403191406/668931/full/sistem-sony-wh-ch520-headphones-beige-bluetooth-usb-c-1613693.jpeg",
+      "alt_text": "Căști Sony WH-CH520 bej, vedere produs",
+      "scheduled_at": "2026-11-10T09:00:00Z",
+      "affiliate": "emag",
+      "enabled": false
+    },
+    {
+      "id": "emag-6bf3f4632a",
+      "board_id": "",
+      "title": "Hub USB-C Baseus 6 în 1 – HDMI 4K, 3x USB 3.0, PD, RJ45",
+      "description": "Hub-ul Baseus UltraJoy 6 în 1 transformă un singur port USB-C în HDMI 4K, trei porturi USB 3.0, PD și RJ45 pentru internet prin cablu. Design compact, potrivit pentru laptop sau pentru un desk setup cu mai puține cabluri. Verifică specificațiile și disponibilitatea în magazin.",
+      "link": "https://profitshare.ro/lps/pPv/MZC/?redirect=https%3A%2F%2Fwww.itgalaxy.ro%2Fhub-usb%2Fbaseus%2Fbaseus-multihub-6-in1-ultrajoy-type-c-1-x-hdmi-4k30hz-3xusb-3-0-1-x-pd-plusrj45-gri-697677%2F",
+      "image_url": "https://cdni.itgalaxy.ro/images/products/img_202403281547/697677/full/hub-usb-baseus-baseus-multihub-6-in1-ultrajoy-type-c-la-1-x-hdmi-4k30hz-si-3xusb-3-0-si-1-x-pd-plusrj45-gri-1688659.jpeg",
+      "alt_text": "Hub USB-C Baseus UltraJoy 6 în 1, vedere produs",
+      "scheduled_at": "2026-11-11T09:00:00Z",
+      "affiliate": "emag",
+      "enabled": false
     }
   ]
 }

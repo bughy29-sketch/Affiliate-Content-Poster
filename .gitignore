@@ -15,3 +15,6 @@ venv/
 logs/
 .DS_Store
 Thumbs.db
+
+# Previzualizări locale generate de importator
+data/queue.preview.json
