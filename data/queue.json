@@ -1,0 +1,40 @@
+{
+  "pins": [
+    {
+      "id": "emag-001",
+      "board_id": "123456789012345678",
+      "title": "Idei de cadouri pentru birou",
+      "description": "Selecție de accesorii utile pentru biroul de acasă. Linkurile duc către magazinul partener.",
+      "link": "https://profitshare.ro/l/exemplu-emag",
+      "image_url": "https://images.example.com/birou.jpg",
+      "alt_text": "Birou organizat cu accesorii",
+      "scheduled_at": "2026-11-01T09:00:00Z",
+      "affiliate": "emag",
+      "enabled": true
+    },
+    {
+      "id": "amazon-001",
+      "board_id": "123456789012345678",
+      "title": "Gadgeturi mici pentru călătorii",
+      "description": "Trei gadgeturi compacte care încap în orice bagaj de mână.",
+      "link": "https://www.amazon.de/dp/B0EXAMPLE?tag=exemplu-21",
+      "image_url": "https://images.example.com/travel.jpg",
+      "alt_text": "Gadgeturi de călătorie pe masă",
+      "scheduled_at": "2026-11-01T12:00:00Z",
+      "affiliate": "amazon",
+      "enabled": true
+    },
+    {
+      "id": "organic-001",
+      "board_id": "123456789012345678",
+      "title": "Paletă de culori pentru toamnă",
+      "description": "Trei combinații de culori pe care le poți folosi în decorul interior.",
+      "link": "https://example.com/blog/paleta-toamna",
+      "image_url": "https://images.example.com/toamna.jpg",
+      "alt_text": "Paletă caldă de toamnă",
+      "scheduled_at": "2026-11-01T15:00:00Z",
+      "affiliate": "",
+      "enabled": true
+    }
+  ]
+}
