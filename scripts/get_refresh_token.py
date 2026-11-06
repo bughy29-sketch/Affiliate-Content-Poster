@@ -16,6 +16,7 @@ import argparse
 import base64
 import http.server
 import json
+import os
 import secrets
 import socketserver
 import sys
@@ -23,6 +24,11 @@ import urllib.parse
 import webbrowser
 
 import requests
+
+try:
+    from dotenv import load_dotenv
+except ImportError:  # pragma: no cover
+    load_dotenv = None  # type: ignore[assignment]
 
 AUTH_URL = "https://www.pinterest.com/oauth/"
 TOKEN_URL = "https://api.pinterest.com/v5/oauth/token"
@@ -56,12 +62,26 @@ class _CallbackHandler(http.server.BaseHTTPRequestHandler):
 
 
 def main() -> int:
+    if load_dotenv is not None:
+        load_dotenv()
+
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--client-id", required=True)
-    parser.add_argument("--client-secret", required=True)
-    parser.add_argument("--redirect-uri", default="http://localhost:8080/callback")
+    parser.add_argument("--client-id", default=os.getenv("PINTEREST_CLIENT_ID", ""))
+    parser.add_argument("--client-secret", default=os.getenv("PINTEREST_CLIENT_SECRET", ""))
+    parser.add_argument(
+        "--redirect-uri",
+        default=os.getenv("PINTEREST_REDIRECT_URI", "http://localhost:8080/callback"),
+    )
     parser.add_argument("--port", type=int, default=8080)
     args = parser.parse_args()
+
+    if not args.client_id or not args.client_secret:
+        print(
+            "Lipsesc PINTEREST_CLIENT_ID / PINTEREST_CLIENT_SECRET. "
+            "Completează-le în .env sau trece-le ca argumente.",
+            file=sys.stderr,
+        )
+        return 2
 
     expected_state = secrets.token_urlsafe(16)
     query = urllib.parse.urlencode(
