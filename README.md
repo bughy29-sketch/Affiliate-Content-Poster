@@ -138,6 +138,23 @@ descrierile de magazin sunt uneori repetitive sau vând prea agresiv.
 > Feed-ul folosit aici conține produse vândute de **ITGalaxy.ro**, distribuite prin
 > Profitshare. Nu scrie „eMAG" în descrieri dacă magazinul real este altul.
 
+## Pinuri Amazon (SUA / EN)
+
+Amazon nu permite scraping și nici folosirea pozelor de produs pe Pinterest, deci
+fluxul este semi-manual:
+
+1. Completează `data/amazon.local.txt` (ignorat de git), câte o linie per produs:
+   ```
+   001 | Logitech MX Master 4 | https://www.amazon.com/dp/...?tag=...
+   ```
+2. Pune imaginile proprii/licențiate în `images/amazon-001.jpg` … `amazon-005.jpg`
+   (JPG/PNG, vertical 2:3, fără prețuri și fără logo-uri de magazin).
+3. Verifică: `python scripts/check_amazon_draft.py`.
+4. Eu transform sloturile în pinuri cu `enabled: false`, disclosure în engleză și
+   `affiliate: amazon`.
+
+Linkurile trebuie să conțină `tag=`; fără scurtătoare terțe (`bit.ly` etc.).
+
 ## Variabile de mediu
 
 | Variabilă | Default | Semnificație |
